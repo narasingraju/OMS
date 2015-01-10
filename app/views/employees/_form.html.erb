@@ -1,0 +1,13 @@
+<%= form_for @employee do |f| %>
+  <div class="field">
+    <%= f.label :Name %>
+    <%= f.text_field :emp_name %></br>
+
+    <%= f.label :Salary %>
+    <%= f.text_field :emp_sal %></br>
+
+    <%= f.label :Joining %>
+    <%= f.date_field :emp_doj %></br>
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emp_name: MyString
+  emp_sal: 1
+  emp_doj: 2015-01-10 07:58:05
+
+two:
+  emp_name: MyString
+  emp_sal: 1
+  emp_doj: 2015-01-10 07:58:05

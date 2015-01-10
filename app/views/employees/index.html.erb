@@ -1,0 +1,20 @@
+<h1>Hello employees</h1>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th><%= "Name"%></th>
+    <th><%= "Salary"%></th>
+    <th><%= "Joining"%></th>
+  </thead>
+  <tbody>
+  <% @employees.each do |p| %>
+    <tr>
+      <td><%= p.emp_name %></td>
+      <td><%= p.emp_sal %></td>
+      <td><%= p.emp_doj %></td>
+  <% end %>
+  </tr>  
+  </tbody>
+</table>
+<%= link_to 'New Employee',new_employee_path %>
